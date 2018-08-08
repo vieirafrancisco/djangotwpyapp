@@ -7,7 +7,12 @@ verify_ssl = true
 python_version = "3.5"
 
 [packages]
+tweepy = "*"
+Django = "*"
 gunicorn = "*"
 django-heroku = "*"
 
 [dev-packages]
+
+[scripts]
+server = "python manage.py runserver"
